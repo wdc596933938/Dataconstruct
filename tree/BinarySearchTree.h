@@ -1,3 +1,6 @@
+#ifndef _BINARY_S_T_
+#define _BINARY_S_T_
+
 template <typename Comparable>
 class BinarySearchTree
 {
@@ -38,3 +41,6 @@ class BinarySearchTree
     BinaryNode *clone(BinaryNode *t)const;
     
 };
+
+
+#endif
